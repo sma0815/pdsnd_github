@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     def get_filters():
         """
-        Asks user to specify a city, month, and day to analyze.
+        Asks user to specify a city, month, and day to analyze or use all days, mont, etc. available
 
         Returns:
             (str) city - name of the city to analyze
@@ -170,6 +170,7 @@ if __name__ == '__main__':
 
 
     def main():
+        """ main function with included error handling due to no gender data in washington dataset""""
         while True:
             city, month, day = get_filters()
             df = load_data(city, month, day)
