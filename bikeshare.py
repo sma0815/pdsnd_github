@@ -170,6 +170,7 @@ if __name__ == '__main__':
 
 
     def main():
+        """ main function with included error handling due to no gender data in washington dataset""""
         while True:
             city, month, day = get_filters()
             df = load_data(city, month, day)
