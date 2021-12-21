@@ -162,11 +162,11 @@ if __name__ == '__main__':
         userinput = 'yes'
 
         while str(userinput) == 'yes':
-            x = (5 * i) - 5
-            y = 5 * i
+            x = 0
+            y = x+5
             print(df.iloc[x:y])
             userinput = input('\nWould you like to see the next 5 lines of raw data? Type yes\n')
-            i += 1
+            x += 5
 
 
     def main():
