@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     def get_filters():
         """
-        Asks user to specify a city, month, and day to analyze.
+        Asks user to specify a city, month, and day to analyze or use all days, mont, etc. available
 
         Returns:
             (str) city - name of the city to analyze
