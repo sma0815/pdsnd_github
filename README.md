@@ -8,7 +8,7 @@ bikeshare.py udacity project
 user interface for analysis of bikeshare data
 
 ### Files used
-chicago.csv, new_york_city.csv, washington.csv
+chicago.csv, new_york_city.csv, washington.csv, bikeshare.py
 
 ### Credits
 thanks to udacity to provide the data
