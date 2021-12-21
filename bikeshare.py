@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
     def rawdata_show(df):
         """ show raw data of bikeshare project"""
-        i = 1
+        
         userinput = 'yes'
 
         while str(userinput) == 'yes':
